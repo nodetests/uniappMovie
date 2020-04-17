@@ -1,0 +1,156 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		
+		{
+			"path": "pages/userbirthday/userbirthday",
+			"style": {
+				"navigationBarTitleText": "用户生日",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/usersex/usersex",
+			"style": {
+				"navigationBarTitleText": "用户生日",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/usernickname/usernickname",
+			"style": {
+				"navigationBarTitleText": "用户昵称",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/myinfo/myinfo",
+			"style": {
+				"navigationBarTitleText": "我的账号",
+				"app-plus": {
+					"titleNView": false
+				}
+			
+				// "h5": {
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"type": "back",
+				// 			"float": "left"
+				// 		}]
+				// 	}
+				// }
+
+			}
+		},
+		{
+			"path": "components/childs",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false
+				}
+				// "h5":{
+				//    "titleNView":{
+				// 	   "buttons":[
+				// 		   {
+				// 			   "type":"back",
+				// 			   "float":"left"   
+				// 		   }
+				// 	   ]
+				//    }
+				// }
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录注册",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login-qq/login-qq",
+			"style": {
+				"navigationBarTitleText": "QQ登录",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login-weixin/login-weixin",
+			"style": {
+				"navigationBarTitleText": "微信登录",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f46",
+		// "borderStyle": "black",
+		// "backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				// "iconPath": "static/image/icon_component.png",
+				// "selectedIconPath": "static/image/icon_component_HL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/search/search",
+				// "iconPath": "static/image/icon_API.png",
+				// "selectedIconPath": "static/image/icon_API_HL.png",
+				"text": "搜索"
+			},
+			{
+				"pagePath": "pages/my/my",
+				// "iconPath": "static/image/icon_API.png",
+				// "selectedIconPath": "static/image/icon_API_HL.png",
+				"text": "我的"
+			}
+		]
+	}
+}
